@@ -1,13 +1,13 @@
-package com.senac.springapi;
+package com.senac.apispring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringapiApplication {
+public class ApispringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringapiApplication.class, args);
+		SpringApplication.run(ApispringApplication.class, args);
 	}
 
 }
