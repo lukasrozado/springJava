@@ -34,9 +34,10 @@ public class Aluno {
     
     
     @Enumerated(EnumType.STRING)
+
+	private Boolean ativo;
+
     private  Curso Curso;
-	
-    
     private Aluno() {}
     
     private Endereco endereco;
@@ -48,8 +49,12 @@ public class Aluno {
     	this.setMatricula(dados.matricula());
     	this.Curso = dados.curso();
     	this.setEndereco(new Endereco(dados.endereco()));
+		this.ativo = true;
 
     }
+	public void excluir(){
+		this.ativo = false;
+	}
 	public void atualizarInformacoes(DadosAtualizacaoAluno dados){
 		if(dados.nome() != null){
 			this.nome = dados.nome();
