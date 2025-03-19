@@ -32,13 +32,10 @@ public class Aluno {
     private String cpf;
     private String matricula;
     
-    
-    @Enumerated(EnumType.STRING)
 
 	private Boolean ativo;
 
     private  Curso Curso;
-    private Aluno() {}
     
     private Endereco endereco;
     
