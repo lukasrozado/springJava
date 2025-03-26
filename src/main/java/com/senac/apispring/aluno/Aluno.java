@@ -32,12 +32,17 @@ public class Aluno {
     private String cpf;
     private String matricula;
     
-
-	private Boolean ativo;
-
+    
+    @Enumerated(EnumType.STRING)
     private  Curso Curso;
+
+    private Boolean ativo;
     
     private Endereco endereco;
+
+
+    private Aluno() {}
+    
     
     public Aluno(DadosCadastroAluno dados) {
     	this.setNome(dados.nome());
@@ -45,31 +50,42 @@ public class Aluno {
     	this.setCpf(dados.cpf());
     	this.setMatricula(dados.matricula());
     	this.Curso = dados.curso();
+    	this.ativo = true;
     	this.setEndereco(new Endereco(dados.endereco()));
-		this.ativo = true;
-
     }
-	public void excluir(){
-		this.ativo = false;
-	}
-	public void atualizarInformacoes(DadosAtualizacaoAluno dados){
-		if(dados.nome() != null){
-			this.nome = dados.nome();
-		}
-		if(dados.email() != null){
-			this.email = dados.email();
-		}
-		if(dados.cpf() != null){
-			this.cpf = dados.cpf();
-		}
-		if(dados.curso() !=null){
-			this.Curso = dados.curso();
-		}
-		if(dados.endereco() !=null){
-			this.endereco.atualizarInformacoes(dados.endereco());
-		}
+    
+    public void excluir() {
+    	this.ativo = false;
+    }
+    
+    public void atualizarInformacoes(DadosAtualizacaoAluno dados) {
+    	
+    	if(dados.nome() != null) {
+    		this.nome = dados.nome();
+    	}
+    	
+    	if (dados.email() != null) {
+    		this.email = dados.email();
+    	}
+    	
+    	if (dados.cpf() != null) {
+    		this.cpf = dados.cpf();
+    	}
+    	
+    	if ( dados.matricula() != null) {
+    		this.matricula = dados.matricula();
+ 
+    	}
+    	
+    	if ( dados.curso() != null ) {
+    		this.Curso = dados.curso();
+    	}
+    	
+    	if (dados.endereco() != null) {
+    		this.endereco.atualizarInformacoes(dados.endereco());
+;    	}
+    }
 
-	}
 	public String getNome() {
 		return nome;
 	}
@@ -119,11 +135,15 @@ public class Aluno {
 		this.Curso = curso;
 	}
 
-	public Long getId(){
-		return id;
+	public Long getId() {
+		
+		return  id;
 	}
-	public void SetId(long id){
+	
+	public void SetId(Long id) {
+		
 		this.id = id;
+		
 	}
     
 }

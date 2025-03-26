@@ -1,7 +1,7 @@
 package com.senac.apispring.aluno;
 
 public record DadosListagemAluno(
-		long id,
+		Long id,
 		String nome,
 		String email,
 		String cpf,
@@ -10,7 +10,7 @@ public record DadosListagemAluno(
 		
 		) {
 	public DadosListagemAluno(Aluno aluno) {
-		this(aluno.getId(), aluno.getNome(), aluno.getEmail(), aluno.getCpf(), aluno.getMatricula(), aluno.getCurso());
+		this( aluno.getId(), aluno.getNome(), aluno.getEmail(), aluno.getCpf(), aluno.getMatricula(), aluno.getCurso());
 	}
 
 }

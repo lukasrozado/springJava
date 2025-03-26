@@ -8,8 +8,7 @@ public record DadosEndereco(
 		String logradouro,
 		@NotBlank
 		String uf,
-		@NotBlank
-		@Pattern(regexp = "\\d(8)")
+		@NotBlank @Pattern(regexp = "\\d(8)")
 		String cep,
 		String numero,
 		String complemento,
