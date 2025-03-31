@@ -1,0 +1,34 @@
+
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" >
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" formControlName="email" required>
+        <div *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched">
+            <div *ngIf="registerForm.get('email')?.hasError('required')">Email é obrigatório.</div>
+            <div *ngIf="registerForm.get('email')?.hasError('email')">Email inválido.</div>
+        </div>
+    </div>
+
+    <div>
+        <label for="username">usuário</label>
+        <input type="username" id="username" formControlName="username" required>
+        <div *ngIf="registerForm.get('username')?.invalid && registerForm.get('username')?.touched">
+            <div *ngIf="registerForm.get('username')?.hasError('required')">username é obrigatório.</div>
+        </div>
+    </div>
+
+    <div>
+        <label for="password">Senha</label>
+        <input id="password" required formControlName="password" type="password"> 
+        <div *ngIf="registerForm.get('senha')?.invalid && registerForm.get('senha')?.touched">
+        <span *ngIf="registerForm.get('senha')?.hasError('required')">Senha é obrigatória</span>
+        <span *ngIf="registerForm.get('senha')?.hasError('minLenght')">A senha deve ter pelo menos 6 caracteres.</span>
+        </div>
+  
+    </div>
+
+    <div>
+        <button type="submit" [disabled]="registerForm.invalid">Register</button>
+    </div>
+</form>

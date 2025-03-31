@@ -1,0 +1,17 @@
+/* Garante que o conteúdo da página ocupe todo o espaço disponível entre o header e o footer */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  text-align: center;
+}
+
+.content {
+  flex: 1; /* Isso faz com que o conteúdo ocupe todo o espaço disponível entre o header e o footer */
+  padding: 20px;
+}

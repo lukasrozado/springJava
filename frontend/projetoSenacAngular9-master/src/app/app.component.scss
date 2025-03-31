@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.video{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  gap: 20px;
+  border: 1px solid #535353;
+  flex-wrap: nowrap;
+
+}

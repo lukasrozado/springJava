@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d973f90e-7045-42de-a90a-72d7577f3d65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/Apispring1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/aluno/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/aluno/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/aluno/DadosAtualizacaoAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/aluno/DadosCadastroAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/aluno/DadosListagemAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/controller/AlunoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/endereco/DadosEndereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/endereco/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/repository/AlunoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/security/DadosTokenJwt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/security/SecurityConfigurations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/security/SecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/services/TokenServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/user/DadosCadastroUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/user/DadosLoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/user/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/senac/apispring/user/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_alunos_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__alter_table_alunos_add_column.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_User_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/senac/apispring/Apispring1ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2v5552cZJnyue38VHlWIOK2e3st" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Public/FullStack/springJava/backend/apispring1",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\FullStack\springJava" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d973f90e-7045-42de-a90a-72d7577f3d65" name="Changes" comment="" />
+      <created>1743421907318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743421907318</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+
+<div>
+    <h2>Heroes</h2>
+    
+    <div>
+      <label>Name:</label>
+      <input [(ngModel)]="newHero.name" placeholder="Name">
+      <label>Age</label>
+      <input [(ngModel)]="newHero.age" placeholder="Age">
+      <label>Power:</label>
+      <input [(ngModel)]="newHero.power" placeholder="Power">
+
+      <button (click)="createHero()">Add Hero</button>
+    </div>
+  
+    <ul>
+      <li *ngFor="let hero of heroes">
+        Nome: {{ hero.name }} - Poder: {{ hero.power }} Idade: {{hero.age}}
+        <button (click)="selectHero(hero)">Edit</button>
+        <button (click)="deleteHero(hero._id!)">Delete</button>
+      </li>
+    </ul>
+  
+    <div *ngIf="selectedHero">
+      <h3>Edit Hero</h3>
+      <label>Name:</label>
+      <input [(ngModel)]="selectedHero!.name" placeholder="Name">
+      <label>Age:</label>
+      <input [(ngModel)]="selectedHero!.age" placeholder="Age">
+      <label>Power:</label>
+      <input [(ngModel)]="selectedHero!.power" placeholder="Power">
+      <button (click)="updateHero()">Update Hero</button>
+      <button (click)="selectedHero = undefined">Cancel</button>
+    </div>
+  </div>
+  

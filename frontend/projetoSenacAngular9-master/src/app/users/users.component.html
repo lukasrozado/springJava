@@ -1,0 +1,18 @@
+<div>
+    <ul>
+        <li *ngFor="let aluno of alunos">
+            <h2>{{aluno.nome}}</h2>
+            <p>{{aluno.cpf}}</p>
+            <p>{{aluno.matricula}}</p>
+            <p>{{aluno.curso}}</p>
+            <h1>Endereço</h1>
+            <p>{{aluno.endereco.logradouro}}</p>
+            <p>{{aluno.endereco.bairro}}</p>
+            <p>{{aluno.endereco.cep}}</p>
+            <p>{{aluno.endereco.numero}}</p>
+            <p>{{aluno.endereco.complemento}}</p>
+            <p>{{aluno.endereco.cidade}}</p>
+            <p>{{aluno.endereco.uf}}</p>
+        </li>
+    </ul>
+</div>
