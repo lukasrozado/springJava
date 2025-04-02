@@ -40,10 +40,7 @@ public class Aluno {
     
     private Endereco endereco;
 
-
-
-    
-    
+	
     public Aluno(DadosCadastroAluno dados) {
     	this.setNome(dados.nome());
     	this.setEmail(dados.email());
